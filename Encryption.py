@@ -14,13 +14,13 @@ def encrypter(string, key):
         if new_val >= len(dic): 
             new_val = new_val - len(dic)
             new_str += dic[new_val]
-            #print(new_val)
+            
         elif new_val < 0:    
                 new_val +=len(dic)
                 new_str += dic[new_val]
-                #print(new_val)
+                
         else:
             new_str +=dic[dic2[i]+key]
-            #print(new_val)
+            
     print("Your message is: "+ new_str)
-    print("Your message is: "+ new_str)
+    
